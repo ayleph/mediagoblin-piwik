@@ -31,7 +31,7 @@ Set up the piwik plugin
 Configure the Piwik plugin
 ==============================
 
-You must provide the naem of the domain to track, the location of your Piwik install, and the site ID of the domain to track. Add the following entries to your mediagoblin_local.ini file under the recaptcha plugin::
+You must provide the name of the domain to track, the location of your Piwik install, and the site ID of the domain to track. Add the following entries to your mediagoblin_local.ini file under the recaptcha plugin::
 
     [[mediagoblin.plugins.piwik]]
     PIWIK_DOMAIN = 'mediagoblin.example.org'
