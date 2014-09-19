@@ -22,7 +22,7 @@ Set up the piwik plugin
 
 2. Copy the piwik folder to your MediaGoblin install::
 
-   cp -r piwik /path/to/mediagoblin/mediagoblin/plugins/
+    cp -r piwik /path/to/mediagoblin/mediagoblin/plugins/
     
 3. Add the following to your mediagoblin_local.ini file in the ``[plugins]`` section::
 
