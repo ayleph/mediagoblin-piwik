@@ -18,9 +18,13 @@ Set up the piwik plugin
 
 1. Clone the Piwik plugin repository from GitHub::
 
-    git clone https://
+    git clone https://github.com/ayleph/mediagoblin-piwik.git
+
+2. Copy the piwik folder to your MediaGoblin install::
+
+   cp -r piwik /path/to/mediagoblin/mediagoblin/plugins/
     
-2. Add the following to your mediagoblin_local.ini file in the ``[plugins]`` section::
+3. Add the following to your mediagoblin_local.ini file in the ``[plugins]`` section::
 
     [[mediagoblin.plugins.piwik]]
 
