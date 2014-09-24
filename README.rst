@@ -2,7 +2,7 @@
 mediagoblin-piwik
 =====================
 
-This plugin enables support for Piwik open source analytics in Gnu MediaGoblin. To make use of the Piwik plugin, you must have access Piwik installed or have access to a live Piwik instance.
+This plugin enables support for Piwik open source analytics in Gnu MediaGoblin. To make use of the Piwik plugin, you must have Piwik installed or have access to a live Piwik instance.
 
 Install Piwiki
 ==========================
