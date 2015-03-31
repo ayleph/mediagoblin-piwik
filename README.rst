@@ -4,7 +4,7 @@ mediagoblin-piwik
 
 This plugin enables support for Piwik open source analytics in Gnu MediaGoblin. To make use of the Piwik plugin, you must have Piwik installed or have access to a live Piwik instance.
 
-Install Piwiki
+Install Piwik
 ==========================
 
 Go to http://piwik.org and click ``Download Piwik Now``. Follow the Piwik installation guide at http://piwik.org/docs/installation-maintenance .
@@ -33,7 +33,7 @@ Configure the Piwik plugin
 
 You must provide the name of the domain to track, the location of your Piwik install, and the site ID of the domain to track.
 
-Add the following entries to your mediagoblin_local.ini file under the recaptcha plugin::
+Add the following entries to your mediagoblin_local.ini file under the piwik plugin::
 
     [[mediagoblin.plugins.piwik]]
     PIWIK_DOMAIN = 'mediagoblin.example.com'
